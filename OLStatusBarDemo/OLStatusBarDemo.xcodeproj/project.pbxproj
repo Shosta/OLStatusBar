@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2525B7013EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B6E13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.m */; };
+		F2525B7113EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2525B6F13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.xib */; };
+		F2525B7A13EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B7913EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.m */; };
+		F2525B8413EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B8213EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.m */; };
+		F2525B8513EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2525B8313EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.xib */; };
+		F2525B9213EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B9013EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.m */; };
+		F2525B9313EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2525B9113EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.xib */; };
+		F2525B9813EC44F7002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B9613EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.m */; };
+		F2525B9913EC44F7002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2525B9713EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.xib */; };
+		F2525B9F13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2525B9D13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.m */; };
+		F2525BA013EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2525B9E13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.xib */; };
+		F258586213F1758E00A156EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F258586113F1758E00A156EF /* Default.png */; };
+		F2A63FB313F16E260077D41F /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F8C13F16E260077D41F /* appIcon.png */; };
+		F2A63FB413F16E260077D41F /* statusViewChangeColorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F8E13F16E260077D41F /* statusViewChangeColorIcon.png */; };
+		F2A63FB513F16E260077D41F /* statusViewDownToUpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F8F13F16E260077D41F /* statusViewDownToUpIcon.png */; };
+		F2A63FB613F16E260077D41F /* statusViewUpToDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9013F16E260077D41F /* statusViewUpToDownIcon.png */; };
+		F2A63FB713F16E260077D41F /* statusViewWithIconIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9113F16E260077D41F /* statusViewWithIconIcon.png */; };
+		F2A63FB813F16E260077D41F /* statusViewWithSpinnerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9213F16E260077D41F /* statusViewWithSpinnerIcon.png */; };
+		F2A63FB913F16E260077D41F /* statusViewWithTextInfonIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9313F16E260077D41F /* statusViewWithTextInfonIcon.png */; };
+		F2A63FBA13F16E260077D41F /* logo_orange_About.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9413F16E260077D41F /* logo_orange_About.png */; };
+		F2A63FBB13F16E260077D41F /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9613F16E260077D41F /* color.png */; };
+		F2A63FBC13F16E260077D41F /* downToUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9713F16E260077D41F /* downToUp.png */; };
+		F2A63FBD13F16E260077D41F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9813F16E260077D41F /* icon.png */; };
+		F2A63FBE13F16E260077D41F /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9913F16E260077D41F /* spinner.png */; };
+		F2A63FBF13F16E260077D41F /* textInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9A13F16E260077D41F /* textInfo.png */; };
+		F2A63FC013F16E260077D41F /* upToDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9B13F16E260077D41F /* upToDown.png */; };
+		F2A63FC113F16E260077D41F /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9C13F16E260077D41F /* text.png */; };
+		F2A63FC213F16E260077D41F /* appIcon - copie.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9E13F16E260077D41F /* appIcon - copie.png */; };
+		F2A63FC313F16E260077D41F /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63F9F13F16E260077D41F /* appIcon.png */; };
+		F2A63FC413F16E260077D41F /* statusViewChangeColorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA113F16E260077D41F /* statusViewChangeColorIcon@2x.png */; };
+		F2A63FC513F16E260077D41F /* statusViewDownToUpIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA213F16E260077D41F /* statusViewDownToUpIcon@2x.png */; };
+		F2A63FC613F16E260077D41F /* statusViewUpToDownIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA313F16E260077D41F /* statusViewUpToDownIcon@2x.png */; };
+		F2A63FC713F16E260077D41F /* statusViewWithIconIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA413F16E260077D41F /* statusViewWithIconIcon@2x.png */; };
+		F2A63FC813F16E260077D41F /* statusViewWithSpinnerIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA513F16E260077D41F /* statusViewWithSpinnerIcon@2x.png */; };
+		F2A63FC913F16E260077D41F /* statusViewWithTextInfonIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA613F16E260077D41F /* statusViewWithTextInfonIcon.png */; };
+		F2A63FCA13F16E260077D41F /* statusViewWithTextInfonIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA713F16E260077D41F /* statusViewWithTextInfonIcon@2x.png */; };
+		F2A63FCB13F16E260077D41F /* logo_orange_About@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FA813F16E260077D41F /* logo_orange_About@2x.png */; };
+		F2A63FCC13F16E260077D41F /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAA13F16E260077D41F /* color.png */; };
+		F2A63FCD13F16E260077D41F /* downToUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAB13F16E260077D41F /* downToUp.png */; };
+		F2A63FCE13F16E260077D41F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAC13F16E260077D41F /* icon.png */; };
+		F2A63FCF13F16E260077D41F /* spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAD13F16E260077D41F /* spinner.png */; };
+		F2A63FD013F16E260077D41F /* textInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAE13F16E260077D41F /* textInfo.png */; };
+		F2A63FD113F16E260077D41F /* upToDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FAF13F16E260077D41F /* upToDown.png */; };
+		F2A63FD213F16E260077D41F /* text - copie.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FB013F16E260077D41F /* text - copie.png */; };
+		F2A63FD313F16E260077D41F /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FB113F16E260077D41F /* text.png */; };
+		F2A63FD413F16E260077D41F /* text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FB213F16E260077D41F /* text@2x.png */; };
+		F2A63FD613F171110077D41F /* shakePhone.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A63FD513F171110077D41F /* shakePhone.png */; };
+		F2D21A0913F14AF7005F143D /* ExplainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D21A0713F14AF7005F143D /* ExplainingViewController.m */; };
+		F2D21A0A13F14AF7005F143D /* ExplainingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D21A0813F14AF7005F143D /* ExplainingViewController.xib */; };
+		F2D990F313EC2C4300DD3210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D990F213EC2C4300DD3210 /* UIKit.framework */; };
+		F2D990F513EC2C4300DD3210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D990F413EC2C4300DD3210 /* Foundation.framework */; };
+		F2D990F713EC2C4300DD3210 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D990F613EC2C4300DD3210 /* CoreGraphics.framework */; };
+		F2D990FD13EC2C4300DD3210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D990FB13EC2C4300DD3210 /* InfoPlist.strings */; };
+		F2D9910013EC2C4300DD3210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D990FF13EC2C4300DD3210 /* main.m */; };
+		F2D9910313EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D9910213EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.m */; };
+		F2D9910613EC2C4300DD3210 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D9910413EC2C4300DD3210 /* MainWindow.xib */; };
+		F2D9910913EC2C4300DD3210 /* OLStatusBarDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D9910813EC2C4300DD3210 /* OLStatusBarDemoViewController.m */; };
+		F2D9910C13EC2C4300DD3210 /* OLStatusBarDemoDownToUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D9910A13EC2C4300DD3210 /* OLStatusBarDemoDownToUpViewController.xib */; };
+		F2D9911513EC2CA900DD3210 /* OLStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D9911413EC2CA900DD3210 /* OLStatusView.m */; };
+		F2D9911A13EC2D5C00DD3210 /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D9911913EC2D5C00DD3210 /* UILabel+Size.m */; };
+		F2DA976513F0368700CBA42E /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DA976413F0368600CBA42E /* appIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2525B6D13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoUpToDownViewController.h; path = DemoFiles/OLStatusBarDemoUpToDownViewController.h; sourceTree = "<group>"; };
+		F2525B6E13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OLStatusBarDemoUpToDownViewController.m; path = DemoFiles/OLStatusBarDemoUpToDownViewController.m; sourceTree = "<group>"; };
+		F2525B6F13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLStatusBarDemoUpToDownViewController.xib; path = DemoFiles/OLStatusBarDemoUpToDownViewController.xib; sourceTree = "<group>"; };
+		F2525B7813EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoDownToUpViewController.h; path = DemoFiles/OLStatusBarDemoDownToUpViewController.h; sourceTree = "<group>"; };
+		F2525B7913EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OLStatusBarDemoDownToUpViewController.m; path = DemoFiles/OLStatusBarDemoDownToUpViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2525B8113EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoDownToUpWithIconViewController.h; path = DemoFiles/OLStatusBarDemoDownToUpWithIconViewController.h; sourceTree = "<group>"; };
+		F2525B8213EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OLStatusBarDemoDownToUpWithIconViewController.m; path = DemoFiles/OLStatusBarDemoDownToUpWithIconViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2525B8313EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLStatusBarDemoDownToUpWithIconViewController.xib; path = DemoFiles/OLStatusBarDemoDownToUpWithIconViewController.xib; sourceTree = "<group>"; };
+		F2525B8F13EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoDownToUpWithSpinnerViewController.h; path = DemoFiles/OLStatusBarDemoDownToUpWithSpinnerViewController.h; sourceTree = "<group>"; };
+		F2525B9013EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OLStatusBarDemoDownToUpWithSpinnerViewController.m; path = DemoFiles/OLStatusBarDemoDownToUpWithSpinnerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2525B9113EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLStatusBarDemoDownToUpWithSpinnerViewController.xib; path = DemoFiles/OLStatusBarDemoDownToUpWithSpinnerViewController.xib; sourceTree = "<group>"; };
+		F2525B9513EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoDownToUpWithInfoLabelViewController.h; path = DemoFiles/OLStatusBarDemoDownToUpWithInfoLabelViewController.h; sourceTree = "<group>"; };
+		F2525B9613EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OLStatusBarDemoDownToUpWithInfoLabelViewController.m; path = DemoFiles/OLStatusBarDemoDownToUpWithInfoLabelViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2525B9713EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLStatusBarDemoDownToUpWithInfoLabelViewController.xib; path = DemoFiles/OLStatusBarDemoDownToUpWithInfoLabelViewController.xib; sourceTree = "<group>"; };
+		F2525B9C13EC478A002CEFA2 /* OLStatusBarDemoChangeColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusBarDemoChangeColorViewController.h; path = DemoFiles/OLStatusBarDemoChangeColorViewController.h; sourceTree = "<group>"; };
+		F2525B9D13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OLStatusBarDemoChangeColorViewController.m; path = DemoFiles/OLStatusBarDemoChangeColorViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F2525B9E13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OLStatusBarDemoChangeColorViewController.xib; path = DemoFiles/OLStatusBarDemoChangeColorViewController.xib; sourceTree = "<group>"; };
+		F258586113F1758E00A156EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F2A63F8C13F16E260077D41F /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		F2A63F8E13F16E260077D41F /* statusViewChangeColorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewChangeColorIcon.png; sourceTree = "<group>"; };
+		F2A63F8F13F16E260077D41F /* statusViewDownToUpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewDownToUpIcon.png; sourceTree = "<group>"; };
+		F2A63F9013F16E260077D41F /* statusViewUpToDownIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewUpToDownIcon.png; sourceTree = "<group>"; };
+		F2A63F9113F16E260077D41F /* statusViewWithIconIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewWithIconIcon.png; sourceTree = "<group>"; };
+		F2A63F9213F16E260077D41F /* statusViewWithSpinnerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewWithSpinnerIcon.png; sourceTree = "<group>"; };
+		F2A63F9313F16E260077D41F /* statusViewWithTextInfonIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewWithTextInfonIcon.png; sourceTree = "<group>"; };
+		F2A63F9413F16E260077D41F /* logo_orange_About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_orange_About.png; sourceTree = "<group>"; };
+		F2A63F9613F16E260077D41F /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		F2A63F9713F16E260077D41F /* downToUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downToUp.png; sourceTree = "<group>"; };
+		F2A63F9813F16E260077D41F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F2A63F9913F16E260077D41F /* spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinner.png; sourceTree = "<group>"; };
+		F2A63F9A13F16E260077D41F /* textInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textInfo.png; sourceTree = "<group>"; };
+		F2A63F9B13F16E260077D41F /* upToDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upToDown.png; sourceTree = "<group>"; };
+		F2A63F9C13F16E260077D41F /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		F2A63F9E13F16E260077D41F /* appIcon - copie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon - copie.png"; sourceTree = "<group>"; };
+		F2A63F9F13F16E260077D41F /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		F2A63FA113F16E260077D41F /* statusViewChangeColorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewChangeColorIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA213F16E260077D41F /* statusViewDownToUpIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewDownToUpIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA313F16E260077D41F /* statusViewUpToDownIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewUpToDownIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA413F16E260077D41F /* statusViewWithIconIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewWithIconIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA513F16E260077D41F /* statusViewWithSpinnerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewWithSpinnerIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA613F16E260077D41F /* statusViewWithTextInfonIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusViewWithTextInfonIcon.png; sourceTree = "<group>"; };
+		F2A63FA713F16E260077D41F /* statusViewWithTextInfonIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusViewWithTextInfonIcon@2x.png"; sourceTree = "<group>"; };
+		F2A63FA813F16E260077D41F /* logo_orange_About@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_orange_About@2x.png"; sourceTree = "<group>"; };
+		F2A63FAA13F16E260077D41F /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		F2A63FAB13F16E260077D41F /* downToUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downToUp.png; sourceTree = "<group>"; };
+		F2A63FAC13F16E260077D41F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F2A63FAD13F16E260077D41F /* spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinner.png; sourceTree = "<group>"; };
+		F2A63FAE13F16E260077D41F /* textInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textInfo.png; sourceTree = "<group>"; };
+		F2A63FAF13F16E260077D41F /* upToDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upToDown.png; sourceTree = "<group>"; };
+		F2A63FB013F16E260077D41F /* text - copie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text - copie.png"; sourceTree = "<group>"; };
+		F2A63FB113F16E260077D41F /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		F2A63FB213F16E260077D41F /* text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text@2x.png"; sourceTree = "<group>"; };
+		F2A63FD513F171110077D41F /* shakePhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakePhone.png; sourceTree = "<group>"; };
+		F2D21A0613F14AF7005F143D /* ExplainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplainingViewController.h; path = DemoFiles/ExplainingViewController/ExplainingViewController.h; sourceTree = "<group>"; };
+		F2D21A0713F14AF7005F143D /* ExplainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplainingViewController.m; path = DemoFiles/ExplainingViewController/ExplainingViewController.m; sourceTree = "<group>"; };
+		F2D21A0813F14AF7005F143D /* ExplainingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExplainingViewController.xib; path = DemoFiles/ExplainingViewController/ExplainingViewController.xib; sourceTree = "<group>"; };
+		F2D990EE13EC2C4300DD3210 /* OLStatusBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLStatusBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D990F213EC2C4300DD3210 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2D990F413EC2C4300DD3210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2D990F613EC2C4300DD3210 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2D990FA13EC2C4300DD3210 /* OLStatusBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OLStatusBarDemo-Info.plist"; sourceTree = "<group>"; };
+		F2D990FC13EC2C4300DD3210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2D990FE13EC2C4300DD3210 /* OLStatusBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLStatusBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F2D990FF13EC2C4300DD3210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2D9910113EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLStatusBarDemoAppDelegate.h; sourceTree = "<group>"; };
+		F2D9910213EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLStatusBarDemoAppDelegate.m; sourceTree = "<group>"; };
+		F2D9910513EC2C4300DD3210 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F2D9910713EC2C4300DD3210 /* OLStatusBarDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLStatusBarDemoViewController.h; sourceTree = "<group>"; };
+		F2D9910813EC2C4300DD3210 /* OLStatusBarDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLStatusBarDemoViewController.m; sourceTree = "<group>"; };
+		F2D9910B13EC2C4300DD3210 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLStatusBarDemoDownToUpViewController.xib; sourceTree = "<group>"; };
+		F2D9911313EC2CA900DD3210 /* OLStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusView.h; path = OLStatusBar/OLStatusView.h; sourceTree = "<group>"; };
+		F2D9911413EC2CA900DD3210 /* OLStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OLStatusView.m; path = OLStatusBar/OLStatusView.m; sourceTree = "<group>"; };
+		F2D9911813EC2D5C00DD3210 /* UILabel+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Size.h"; path = "OLStatusBar/Utilities/Categories/UILabel+Size.h"; sourceTree = "<group>"; };
+		F2D9911913EC2D5C00DD3210 /* UILabel+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Size.m"; path = "OLStatusBar/Utilities/Categories/UILabel+Size.m"; sourceTree = "<group>"; };
+		F2DA971813F010C700CBA42E /* OLStatusViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLStatusViewDelegate.h; path = OLStatusBar/OLStatusViewDelegate.h; sourceTree = "<group>"; };
+		F2DA976413F0368600CBA42E /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D990EB13EC2C4300DD3210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D990F313EC2C4300DD3210 /* UIKit.framework in Frameworks */,
+				F2D990F513EC2C4300DD3210 /* Foundation.framework in Frameworks */,
+				F2D990F713EC2C4300DD3210 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2525B7B13EC3F35002CEFA2 /* Demo files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D21A0413F14ABE005F143D /* ExplainingViewController */,
+				F2525B9B13EC4734002CEFA2 /* BaseDemoViewController */,
+				F2525B7C13EC3F40002CEFA2 /* UpToDown */,
+				F2525B7D13EC3F49002CEFA2 /* DownToUp */,
+				F2525B8613EC4211002CEFA2 /* DownToUpWithIcon */,
+				F2525B9413EC443E002CEFA2 /* DownToUpWithSpinner */,
+				F2525B9A13EC44FB002CEFA2 /* DownToUpWithInfoLabel */,
+				F2525BA113EC4A01002CEFA2 /* changeColors */,
+			);
+			name = "Demo files";
+			sourceTree = "<group>";
+		};
+		F2525B7C13EC3F40002CEFA2 /* UpToDown */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B6D13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.h */,
+				F2525B6E13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.m */,
+				F2525B6F13EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.xib */,
+			);
+			name = UpToDown;
+			sourceTree = "<group>";
+		};
+		F2525B7D13EC3F49002CEFA2 /* DownToUp */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B7813EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.h */,
+				F2525B7913EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.m */,
+				F2D9910A13EC2C4300DD3210 /* OLStatusBarDemoDownToUpViewController.xib */,
+			);
+			name = DownToUp;
+			sourceTree = "<group>";
+		};
+		F2525B8613EC4211002CEFA2 /* DownToUpWithIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B8113EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.h */,
+				F2525B8213EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.m */,
+				F2525B8313EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.xib */,
+			);
+			name = DownToUpWithIcon;
+			sourceTree = "<group>";
+		};
+		F2525B8713EC437F002CEFA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63F8A13F16E260077D41F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2525B9413EC443E002CEFA2 /* DownToUpWithSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B8F13EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.h */,
+				F2525B9013EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.m */,
+				F2525B9113EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.xib */,
+			);
+			name = DownToUpWithSpinner;
+			sourceTree = "<group>";
+		};
+		F2525B9A13EC44FB002CEFA2 /* DownToUpWithInfoLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B9513EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.h */,
+				F2525B9613EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.m */,
+				F2525B9713EC44F6002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.xib */,
+			);
+			name = DownToUpWithInfoLabel;
+			sourceTree = "<group>";
+		};
+		F2525B9B13EC4734002CEFA2 /* BaseDemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2D9910713EC2C4300DD3210 /* OLStatusBarDemoViewController.h */,
+				F2D9910813EC2C4300DD3210 /* OLStatusBarDemoViewController.m */,
+			);
+			name = BaseDemoViewController;
+			sourceTree = "<group>";
+		};
+		F2525BA113EC4A01002CEFA2 /* changeColors */ = {
+			isa = PBXGroup;
+			children = (
+				F2525B9C13EC478A002CEFA2 /* OLStatusBarDemoChangeColorViewController.h */,
+				F2525B9D13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.m */,
+				F2525B9E13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.xib */,
+			);
+			name = changeColors;
+			sourceTree = "<group>";
+		};
+		F2A63F8A13F16E260077D41F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63F8B13F16E260077D41F /* 3G */,
+				F2A63F9D13F16E260077D41F /* 4G */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F2A63F8B13F16E260077D41F /* 3G */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63F8C13F16E260077D41F /* appIcon.png */,
+				F2A63F8D13F16E260077D41F /* ExplainingIcons */,
+				F2A63F9413F16E260077D41F /* logo_orange_About.png */,
+				F2A63F9513F16E260077D41F /* TabBarIcons */,
+				F2A63F9C13F16E260077D41F /* text.png */,
+			);
+			path = 3G;
+			sourceTree = "<group>";
+		};
+		F2A63F8D13F16E260077D41F /* ExplainingIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63F8E13F16E260077D41F /* statusViewChangeColorIcon.png */,
+				F2A63F8F13F16E260077D41F /* statusViewDownToUpIcon.png */,
+				F2A63F9013F16E260077D41F /* statusViewUpToDownIcon.png */,
+				F2A63F9113F16E260077D41F /* statusViewWithIconIcon.png */,
+				F2A63F9213F16E260077D41F /* statusViewWithSpinnerIcon.png */,
+				F2A63F9313F16E260077D41F /* statusViewWithTextInfonIcon.png */,
+			);
+			path = ExplainingIcons;
+			sourceTree = "<group>";
+		};
+		F2A63F9513F16E260077D41F /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63F9613F16E260077D41F /* color.png */,
+				F2A63F9713F16E260077D41F /* downToUp.png */,
+				F2A63F9813F16E260077D41F /* icon.png */,
+				F2A63F9913F16E260077D41F /* spinner.png */,
+				F2A63F9A13F16E260077D41F /* textInfo.png */,
+				F2A63F9B13F16E260077D41F /* upToDown.png */,
+			);
+			path = TabBarIcons;
+			sourceTree = "<group>";
+		};
+		F2A63F9D13F16E260077D41F /* 4G */ = {
+			isa = PBXGroup;
+			children = (
+				F258586113F1758E00A156EF /* Default.png */,
+				F2A63FD513F171110077D41F /* shakePhone.png */,
+				F2A63F9E13F16E260077D41F /* appIcon - copie.png */,
+				F2A63F9F13F16E260077D41F /* appIcon.png */,
+				F2A63FA013F16E260077D41F /* ExplainingIcons */,
+				F2A63FA813F16E260077D41F /* logo_orange_About@2x.png */,
+				F2A63FA913F16E260077D41F /* TabBarIcons */,
+				F2A63FB013F16E260077D41F /* text - copie.png */,
+				F2A63FB113F16E260077D41F /* text.png */,
+				F2A63FB213F16E260077D41F /* text@2x.png */,
+			);
+			path = 4G;
+			sourceTree = "<group>";
+		};
+		F2A63FA013F16E260077D41F /* ExplainingIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63FA113F16E260077D41F /* statusViewChangeColorIcon@2x.png */,
+				F2A63FA213F16E260077D41F /* statusViewDownToUpIcon@2x.png */,
+				F2A63FA313F16E260077D41F /* statusViewUpToDownIcon@2x.png */,
+				F2A63FA413F16E260077D41F /* statusViewWithIconIcon@2x.png */,
+				F2A63FA513F16E260077D41F /* statusViewWithSpinnerIcon@2x.png */,
+				F2A63FA613F16E260077D41F /* statusViewWithTextInfonIcon.png */,
+				F2A63FA713F16E260077D41F /* statusViewWithTextInfonIcon@2x.png */,
+			);
+			path = ExplainingIcons;
+			sourceTree = "<group>";
+		};
+		F2A63FA913F16E260077D41F /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F2A63FAA13F16E260077D41F /* color.png */,
+				F2A63FAB13F16E260077D41F /* downToUp.png */,
+				F2A63FAC13F16E260077D41F /* icon.png */,
+				F2A63FAD13F16E260077D41F /* spinner.png */,
+				F2A63FAE13F16E260077D41F /* textInfo.png */,
+				F2A63FAF13F16E260077D41F /* upToDown.png */,
+			);
+			path = TabBarIcons;
+			sourceTree = "<group>";
+		};
+		F2D21A0413F14ABE005F143D /* ExplainingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2D21A0613F14AF7005F143D /* ExplainingViewController.h */,
+				F2D21A0713F14AF7005F143D /* ExplainingViewController.m */,
+				F2D21A0813F14AF7005F143D /* ExplainingViewController.xib */,
+			);
+			name = ExplainingViewController;
+			sourceTree = "<group>";
+		};
+		F2D990E313EC2C4200DD3210 = {
+			isa = PBXGroup;
+			children = (
+				F2DA976413F0368600CBA42E /* appIcon.png */,
+				F2D990F813EC2C4300DD3210 /* OLStatusBarDemo */,
+				F2D990F113EC2C4300DD3210 /* Frameworks */,
+				F2D990EF13EC2C4300DD3210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D990EF13EC2C4300DD3210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D990EE13EC2C4300DD3210 /* OLStatusBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D990F113EC2C4300DD3210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D990F213EC2C4300DD3210 /* UIKit.framework */,
+				F2D990F413EC2C4300DD3210 /* Foundation.framework */,
+				F2D990F613EC2C4300DD3210 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D990F813EC2C4300DD3210 /* OLStatusBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2D9911213EC2C6500DD3210 /* OLStatusView */,
+				F2525B7B13EC3F35002CEFA2 /* Demo files */,
+				F2D9910113EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.h */,
+				F2D9910213EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.m */,
+				F2D9910413EC2C4300DD3210 /* MainWindow.xib */,
+				F2D990F913EC2C4300DD3210 /* Supporting Files */,
+				F2525B8713EC437F002CEFA2 /* Resources */,
+			);
+			path = OLStatusBarDemo;
+			sourceTree = "<group>";
+		};
+		F2D990F913EC2C4300DD3210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D990FA13EC2C4300DD3210 /* OLStatusBarDemo-Info.plist */,
+				F2D990FB13EC2C4300DD3210 /* InfoPlist.strings */,
+				F2D990FE13EC2C4300DD3210 /* OLStatusBarDemo-Prefix.pch */,
+				F2D990FF13EC2C4300DD3210 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D9911213EC2C6500DD3210 /* OLStatusView */ = {
+			isa = PBXGroup;
+			children = (
+				F2D9911613EC2D0900DD3210 /* Utilities */,
+				F2DA971813F010C700CBA42E /* OLStatusViewDelegate.h */,
+				F2D9911313EC2CA900DD3210 /* OLStatusView.h */,
+				F2D9911413EC2CA900DD3210 /* OLStatusView.m */,
+			);
+			name = OLStatusView;
+			sourceTree = "<group>";
+		};
+		F2D9911613EC2D0900DD3210 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2D9911713EC2D1100DD3210 /* Categories */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F2D9911713EC2D1100DD3210 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F2D9911813EC2D5C00DD3210 /* UILabel+Size.h */,
+				F2D9911913EC2D5C00DD3210 /* UILabel+Size.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D990ED13EC2C4300DD3210 /* OLStatusBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D9910F13EC2C4300DD3210 /* Build configuration list for PBXNativeTarget "OLStatusBarDemo" */;
+			buildPhases = (
+				F2D990EA13EC2C4300DD3210 /* Sources */,
+				F2D990EB13EC2C4300DD3210 /* Frameworks */,
+				F2D990EC13EC2C4300DD3210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLStatusBarDemo;
+			productName = OLStatusBarDemo;
+			productReference = F2D990EE13EC2C4300DD3210 /* OLStatusBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D990E513EC2C4200DD3210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Orange Labs";
+			};
+			buildConfigurationList = F2D990E813EC2C4200DD3210 /* Build configuration list for PBXProject "OLStatusBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2D990E313EC2C4200DD3210;
+			productRefGroup = F2D990EF13EC2C4300DD3210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D990ED13EC2C4300DD3210 /* OLStatusBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D990EC13EC2C4300DD3210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D990FD13EC2C4300DD3210 /* InfoPlist.strings in Resources */,
+				F2D9910613EC2C4300DD3210 /* MainWindow.xib in Resources */,
+				F2D9910C13EC2C4300DD3210 /* OLStatusBarDemoDownToUpViewController.xib in Resources */,
+				F2525B7113EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.xib in Resources */,
+				F2525B8513EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.xib in Resources */,
+				F2525B9313EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.xib in Resources */,
+				F2525B9913EC44F7002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.xib in Resources */,
+				F2525BA013EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.xib in Resources */,
+				F2DA976513F0368700CBA42E /* appIcon.png in Resources */,
+				F2D21A0A13F14AF7005F143D /* ExplainingViewController.xib in Resources */,
+				F2A63FB313F16E260077D41F /* appIcon.png in Resources */,
+				F2A63FB413F16E260077D41F /* statusViewChangeColorIcon.png in Resources */,
+				F2A63FB513F16E260077D41F /* statusViewDownToUpIcon.png in Resources */,
+				F2A63FB613F16E260077D41F /* statusViewUpToDownIcon.png in Resources */,
+				F2A63FB713F16E260077D41F /* statusViewWithIconIcon.png in Resources */,
+				F2A63FB813F16E260077D41F /* statusViewWithSpinnerIcon.png in Resources */,
+				F2A63FB913F16E260077D41F /* statusViewWithTextInfonIcon.png in Resources */,
+				F2A63FBA13F16E260077D41F /* logo_orange_About.png in Resources */,
+				F2A63FBB13F16E260077D41F /* color.png in Resources */,
+				F2A63FBC13F16E260077D41F /* downToUp.png in Resources */,
+				F2A63FBD13F16E260077D41F /* icon.png in Resources */,
+				F2A63FBE13F16E260077D41F /* spinner.png in Resources */,
+				F2A63FBF13F16E260077D41F /* textInfo.png in Resources */,
+				F2A63FC013F16E260077D41F /* upToDown.png in Resources */,
+				F2A63FC113F16E260077D41F /* text.png in Resources */,
+				F2A63FC213F16E260077D41F /* appIcon - copie.png in Resources */,
+				F2A63FC313F16E260077D41F /* appIcon.png in Resources */,
+				F2A63FC413F16E260077D41F /* statusViewChangeColorIcon@2x.png in Resources */,
+				F2A63FC513F16E260077D41F /* statusViewDownToUpIcon@2x.png in Resources */,
+				F2A63FC613F16E260077D41F /* statusViewUpToDownIcon@2x.png in Resources */,
+				F2A63FC713F16E260077D41F /* statusViewWithIconIcon@2x.png in Resources */,
+				F2A63FC813F16E260077D41F /* statusViewWithSpinnerIcon@2x.png in Resources */,
+				F2A63FC913F16E260077D41F /* statusViewWithTextInfonIcon.png in Resources */,
+				F2A63FCA13F16E260077D41F /* statusViewWithTextInfonIcon@2x.png in Resources */,
+				F2A63FCB13F16E260077D41F /* logo_orange_About@2x.png in Resources */,
+				F2A63FCC13F16E260077D41F /* color.png in Resources */,
+				F2A63FCD13F16E260077D41F /* downToUp.png in Resources */,
+				F2A63FCE13F16E260077D41F /* icon.png in Resources */,
+				F2A63FCF13F16E260077D41F /* spinner.png in Resources */,
+				F2A63FD013F16E260077D41F /* textInfo.png in Resources */,
+				F2A63FD113F16E260077D41F /* upToDown.png in Resources */,
+				F2A63FD213F16E260077D41F /* text - copie.png in Resources */,
+				F2A63FD313F16E260077D41F /* text.png in Resources */,
+				F2A63FD413F16E260077D41F /* text@2x.png in Resources */,
+				F2A63FD613F171110077D41F /* shakePhone.png in Resources */,
+				F258586213F1758E00A156EF /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D990EA13EC2C4300DD3210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D9910013EC2C4300DD3210 /* main.m in Sources */,
+				F2D9910313EC2C4300DD3210 /* OLStatusBarDemoAppDelegate.m in Sources */,
+				F2D9910913EC2C4300DD3210 /* OLStatusBarDemoViewController.m in Sources */,
+				F2D9911513EC2CA900DD3210 /* OLStatusView.m in Sources */,
+				F2D9911A13EC2D5C00DD3210 /* UILabel+Size.m in Sources */,
+				F2525B7013EC3C84002CEFA2 /* OLStatusBarDemoUpToDownViewController.m in Sources */,
+				F2525B7A13EC3DF6002CEFA2 /* OLStatusBarDemoDownToUpViewController.m in Sources */,
+				F2525B8413EC420B002CEFA2 /* OLStatusBarDemoDownToUpWithIconViewController.m in Sources */,
+				F2525B9213EC441C002CEFA2 /* OLStatusBarDemoDownToUpWithSpinnerViewController.m in Sources */,
+				F2525B9813EC44F7002CEFA2 /* OLStatusBarDemoDownToUpWithInfoLabelViewController.m in Sources */,
+				F2525B9F13EC478B002CEFA2 /* OLStatusBarDemoChangeColorViewController.m in Sources */,
+				F2D21A0913F14AF7005F143D /* ExplainingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2D990FB13EC2C4300DD3210 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D990FC13EC2C4300DD3210 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2D9910413EC2C4300DD3210 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D9910513EC2C4300DD3210 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F2D9910A13EC2C4300DD3210 /* OLStatusBarDemoDownToUpViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D9910B13EC2C4300DD3210 /* en */,
+			);
+			name = OLStatusBarDemoDownToUpViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D9910D13EC2C4300DD3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2D9910E13EC2C4300DD3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F2D9911013EC2C4300DD3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLStatusBarDemo/OLStatusBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "OLStatusBarDemo/OLStatusBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2D9911113EC2C4300DD3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLStatusBarDemo/OLStatusBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "OLStatusBarDemo/OLStatusBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D990E813EC2C4200DD3210 /* Build configuration list for PBXProject "OLStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D9910D13EC2C4300DD3210 /* Debug */,
+				F2D9910E13EC2C4300DD3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D9910F13EC2C4300DD3210 /* Build configuration list for PBXNativeTarget "OLStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D9911013EC2C4300DD3210 /* Debug */,
+				F2D9911113EC2C4300DD3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D990E513EC2C4200DD3210 /* Project object */;
+}
